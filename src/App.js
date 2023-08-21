@@ -7,7 +7,6 @@ function App() {
   const [result, setResult] = useState("");
 
   useEffect(() => {
-    console.log("use effect called");
     if (initialCurrency === goalCurrency || !value) {
       setResult(() => value);
       return;
